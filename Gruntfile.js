@@ -21,13 +21,6 @@ module.exports = function(grunt) {
 
 
 
-    /*
-     * Watch Task
-     * Rebuild all the application when a file is changed
-     * dist: the default process target
-     * files: when these files are saved,
-     * task: do this tasks
-     */
     watch: {
       dist: {
         files: ['css/sass/**'],

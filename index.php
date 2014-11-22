@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -13,6 +15,10 @@
 	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <h1>TEST DE LA FONT</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eligendi laborum animi provident quaerat dolorem, magni tempore, unde porro facere asperiores enim sed soluta neque cum voluptas maxime quasi autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eaque quaerat dolor laborum error, deleniti minus, et ut, ex inventore officia repellat dolorem laudantium ipsum vero ab! Quod, non excepturi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet architecto sunt, qui id, amet nisi autem repellendus animi, voluptas nostrum temporibus. Deserunt quas nesciunt eius temporibus. Unde, repudiandae perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus itaque error voluptas illum totam sint nemo atque debitis, eveniet officiis porro quo at nesciunt voluptates fugiat voluptatum voluptatibus a pariatur.</p>
 	
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

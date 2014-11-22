@@ -397,7 +397,14 @@ th {
 }
 
 body {
-  color: #ccc;
+  font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+  font: 14px/20px;
+  color: #5c6b7e;
+}
+
+h1 {
+  font-family: "Lato", Arial, sans-serif;
+  color: #001837;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,14 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
 	font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
 	font:14px/20px;
@@ -9,3 +20,24 @@ h1{
 	color:#001837;
 }
 
+a{
+	text-decoration:none;
+}
+
+.container-wrap{
+	width:100%;
+	background-color: #e9f0f5;
+}
+
+.container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}

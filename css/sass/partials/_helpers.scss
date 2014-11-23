@@ -1,0 +1,54 @@
+// ===========================================================================
+//  $HELPERS
+// ===========================================================================
+
+
+//
+// ^box-sizing
+//
+@mixin box-sizing($value){
+	-webkit-box-sizing: $value;
+	-moz-box-sizing: $value;
+	box-sizing: $value;
+}
+
+//
+// ^box-shadow
+//
+@mixin box-shadow($value){
+	-webkit-box-shadow: $value;
+  	-moz-box-shadow: $value;
+	box-shadow: $value;
+}
+
+
+//
+// ^opacity
+//
+@mixin opacity($value){
+	filter: alpha(opacity=$value * 100);
+	-khtml-opacity: $value;
+	-moz-opacity: $value;
+	opacity: $value;
+}
+
+//
+// ^transition
+//
+@mixin transition($value){
+	-webkit-transition: $value;
+	-moz-transition: $value;
+	-o-transition: $value;
+	transition: $value;
+}
+
+//
+// ^overflow-scrolling
+//
+@mixin overflow-scrolling($value){
+	-webkit-overflow-scrolling: $value;
+	-moz-overflow-scrolling: $value;
+	-o-overflow-scrolling: $value;
+	overflow-scrolling: $value;
+}
+

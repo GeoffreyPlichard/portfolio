@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="js/vendor/modernizr.js"></script> <!-- Modernizr -->
@@ -17,15 +18,23 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header style="height:500px;">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </header>
 
+	<header class="main-header">
+	    <nav class="container">
+	    	<ul class="navbar">
+	    		<li><a href="#">Home</a></li>
+	    		<li><a href="#">About</a></li>
+	    		<li><a href="#">Skills</a></li>
+	    		<li><a href="#">Experience</a></li>
+	    		<li><a href="#">Education</a></li>
+	    		<li><a href="#">Portfolio</a></li>
+	    		<li><a href="#">Contact</a></li>
+	    		<li><a href="#">Blog</a></li>
+	    	</ul>
+	    </nav>
+	</header>
+   
+    <!-- TIMELINE -->
 	<div class="container-wrap">
 	    <section class="timeline container">
 	    	<div class="timeline-block">

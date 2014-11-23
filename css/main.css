@@ -67,6 +67,7 @@ body {
   font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
   font: 14px/20px;
   color: #5c6b7e;
+  background-color: #e9f0f5;
 }
 
 h1 {
@@ -97,6 +98,46 @@ a {
   clear: both;
 }
 
+.main-header {
+  width: 100%;
+  background-color: #3C827E;
+}
+
+.navbar {
+  padding-left: 0;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+  padding: 15px 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.navbar li a:hover {
+  background-color: #739795;
+}
+
+/* .navbar-flat { background: #3C827E; margin-bottom: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
+.navbar-flat .navbar-collapse { text-align: center; }
+.navbar-flat .navbar-toggle .icon-bar { background: white; }
+.navbar-flat ul { float: none; }
+.navbar-flat li { display: inline-block; float: none; }
+.navbar-flat li a:hover { background: #739795; color: white; }
+.navbar-flat li a:focus { background: #739795; color: white; }
+.navbar-flat li.active a { background: #739795; color: white; }
+.navbar-flat a { font-family: "Lato", sans-serif; font-weight: 700; color: #f7f8f8; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
+.navbar-flat .navbar-brand { display: none; } */
 .timeline {
   position: relative;
   padding: 2em 0;

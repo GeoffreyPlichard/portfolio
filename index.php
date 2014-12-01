@@ -84,10 +84,20 @@
 	    </section>
 	</div>
 
-    <h1>TEST DE LA FONT</h1>
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<p>Follow me.</p>
+			<ul>
+				<li><a target="_blank" class="sprite-tt" href="https://twitter.com/GeoWebDev"></a></li>
+				<li><a target="_blank" class="sprite-li" href="http://fr.linkedin.com/in/geoffreyplichard/"></a></li>
+				<li><a target="_blank" class="sprite-github" href="http://www.github.com/GeoffreyPlichard"></a></li>
+				<li><a target="_blank" class="sprite-codepen" href="http://www.codepen.io/GeoffreyPlichard"></a></li>
+				<li><a target="_blank" class="sprite-viadeo" href="http://www.viadeo.com/profile/0021mhs1ewpkflsr"></a></li>
+			</ul>
+		</div>
+	</footer>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eligendi laborum animi provident quaerat dolorem, magni tempore, unde porro facere asperiores enim sed soluta neque cum voluptas maxime quasi autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eaque quaerat dolor laborum error, deleniti minus, et ut, ex inventore officia repellat dolorem laudantium ipsum vero ab! Quod, non excepturi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet architecto sunt, qui id, amet nisi autem repellendus animi, voluptas nostrum temporibus. Deserunt quas nesciunt eius temporibus. Unde, repudiandae perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus itaque error voluptas illum totam sint nemo atque debitis, eveniet officiis porro quo at nesciunt voluptates fugiat voluptatum voluptatibus a pariatur.</p>
-	
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>

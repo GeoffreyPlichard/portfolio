@@ -35,11 +35,21 @@
 //
 // ^transition
 //
-@mixin transition($value){
+@mixin transition($value...){
 	-webkit-transition: $value;
 	-moz-transition: $value;
 	-o-transition: $value;
 	transition: $value;
+}
+
+//
+// ^border-radius
+//
+@mixin border-radius($value...){
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	-o-border-radius: $value;
+	border-radius: $value;
 }
 
 //

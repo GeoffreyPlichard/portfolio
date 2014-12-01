@@ -138,6 +138,97 @@ a {
 .navbar-flat li.active a { background: #739795; color: white; }
 .navbar-flat a { font-family: "Lato", sans-serif; font-weight: 700; color: #f7f8f8; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
 .navbar-flat .navbar-brand { display: none; } */
+.sprite-codepen, .sprite-github, .sprite-li, .sprite-tt, .sprite-viadeo {
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background: #363b3f;
+  padding: 15px 0;
+}
+
+.footer p {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+.footer ul {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.footer li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: none;
+  padding: 18px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in, 1s;
+  -moz-transition: all 0.3s ease-in, 1s;
+  -o-transition: all 0.3s ease-in, 1s;
+  transition: all 0.3s ease-in, 1s;
+}
+
+/*
+* ^social
+*/
+.sprite-codepen {
+  background-image: url(../img/social-sprite.png);
+  background-position: 9.5px 9.5px;
+}
+
+.sprite-codepen:hover {
+  background-color: #000;
+}
+
+.sprite-github {
+  background-image: url(../img/social-sprite.png);
+  background-position: -130px 9.5px;
+}
+
+.sprite-github:hover {
+  background-color: #000;
+}
+
+.sprite-li {
+  background-image: url(../img/social-sprite.png);
+  background-position: -199px 9.5px;
+}
+
+.sprite-li:hover {
+  background-color: #0073b2;
+}
+
+.sprite-tt {
+  background-image: url(../img/social-sprite.png);
+  background-position: -267px 9.5px;
+}
+
+.sprite-tt:hover {
+  background-color: #9ae4e8;
+}
+
+.sprite-viadeo {
+  background-image: url(../img/social-sprite.png);
+  background-position: -337px 9.5px;
+}
+
+.sprite-viadeo:hover {
+  background-color: #ff974d;
+}
+
 .timeline {
   position: relative;
   padding: 2em 0;

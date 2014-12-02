@@ -65,18 +65,23 @@ html * {
 
 body {
   font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
-  font: 14px/20px;
   color: #5c6b7e;
+  line-height: 20px;
   background-color: #e9f0f5;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", Arial, sans-serif;
   color: #001837;
 }
 
 a {
   text-decoration: none;
+}
+
+abbr {
+  border-bottom: 1px dashed #5c6b7e;
+  cursor: help;
 }
 
 .container-wrap {
@@ -297,6 +302,7 @@ a {
 * ^timeline image
 */
 .timeline-img {
+  background-image: url("../img/timeline-sprite-40.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -304,24 +310,65 @@ a {
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
 }
-.timeline-img img {
+.timeline-img a {
   display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  width: 40px;
+  height: 40px;
+}
+
+.timeline-arkena {
+  background-position: 0px 0px;
+}
+
+.timeline-byagency {
+  background-position: -90px 0px;
+}
+
+.timeline-cput {
+  background-position: -180px 0px;
+}
+
+.timeline-em {
+  background-position: -270px 0px;
+}
+
+.timeline-iut {
+  background-position: -360px 0px;
 }
 
 @media only screen and (min-width: 1170px) {
   .timeline-img {
+    background-image: url("../img/timeline-sprite-64.png");
     width: 60px;
     height: 60px;
     left: 50%;
     margin-left: -30px;
+  }
+  .timeline-img a {
+    width: 64px;
+    height: 64px;
+  }
+
+  .timeline-arkena {
+    background-position: 0px 0px;
+  }
+
+  .timeline-byagency {
+    background-position: -114px 0px;
+  }
+
+  .timeline-cput {
+    background-position: -230px 0px;
+  }
+
+  .timeline-em {
+    background-position: -344px 0px;
+  }
+
+  .timeline-iut {
+    background-position: -460px 0px;
   }
 
   .cssanimations .timeline-img.is-hidden {
@@ -624,6 +671,9 @@ a {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+.em {
+  background-image: url("../img/ecole_multimedia.jpg");
 }
 
 /*# sourceMappingURL=main.css.map */

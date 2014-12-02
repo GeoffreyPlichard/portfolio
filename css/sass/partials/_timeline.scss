@@ -64,6 +64,7 @@
 */
 
 .timeline-img {
+  background-image:url('../img/timeline-sprite-40.png');
   position: absolute;
   top: 0;
   left: 0;
@@ -71,33 +72,48 @@
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-  img{
-  	display: block;
-  	width: 24px;
-  	height: 24px;
-  	position: relative;
-  	left: 50%;
-  	top: 50%;
-  	margin-left: -12px;
-  	margin-top: -12px;
+  background-color: #fff;
+  a{
+    display:block;
+    width:40px;
+    height:40px;
   }
 }
 
+.timeline-arkena{ background-position: 0px 0px; }
+.timeline-byagency{ background-position: -90px 0px; }
+.timeline-cput{ background-position: -180px 0px; }
+.timeline-em{ background-position: -270px 0px; }
+.timeline-iut{ background-position: -360px 0px; }
+
+
 @media only screen and (min-width: 1170px) {
   .timeline-img {
+    background-image:url('../img/timeline-sprite-64.png');
     width: 60px;
     height: 60px;
     left: 50%;
     margin-left: -30px;
+    a{
+      width:64px;
+      height:64px;
+    }
   }
+
+  .timeline-arkena{ background-position: 0px 0px; }
+  .timeline-byagency{ background-position: -114px 0px; }
+  .timeline-cput{ background-position: -230px 0px; }
+  .timeline-em{ background-position: -344px 0px; }
+  .timeline-iut{ background-position: -460px 0px; }
+
   .cssanimations .timeline-img.is-hidden {
     visibility: hidden;
   }
   .cssanimations .timeline-img.bounce-in {
     visibility: visible;
-     -webkit-animation: bounce 0.6s;
-	-moz-animation: bounce 0.6s;
-	animation: bounce 0 .6s; 
+    -webkit-animation: bounce 0.6s;
+    -moz-animation: bounce 0.6s;
+	   animation: bounce 0 .6s; 
   }
 }
 
@@ -422,4 +438,8 @@
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+.em{
+  background-image:url('../img/ecole_multimedia.jpg');
 }

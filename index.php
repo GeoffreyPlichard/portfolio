@@ -34,55 +34,91 @@
 	    </nav>
 	</header>
 
-	<section>
-		I'm currently in Mobile Applications Developer training at l'Ecole Multimedia in Paris. Parallel to my studies, I'm a front-end developer at Arkena, a leader company in content management and video services for the Media Industry where I start my second year using HTML5, CSS3, jQuery and AngularJS.
+	<section class="about">
+		<div class="container">
+			I'm currently in Mobile Applications Developer training at l'Ecole Multimedia in Paris. Parallel to my studies, I'm a front-end developer at Arkena, a leader company in content management and video services for the Media Industry where I start my second year working on cool technologies such as HTML5, CSS3, jQuery and AngularJS.
+		</div>
 	</section>
    
     <!-- TIMELINE -->
 	<div class="container-wrap">
 	    <section class="timeline container">
 	    	<div class="timeline-block">
-	    		<div class="timeline-img">
-	    			<img src="img/ecole_multimedia.jpg" alt="#">
-	    		</div>
+	    		<div class="timeline-img timeline-arkena"><a href="#"></a></div>
 	    		<div class="timeline-content">
-	    			<h2>Title of section 1</h2>
+	    			<h2>Arkena - Front-end Developer</h2>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
-	    			<a class="read-more" href="#">Read more</a>
-	    			<span class="date">Jan 14</span>
+	    			<a class="read-more" href="#">Check Website</a>
+	    			<span class="date">Oct 2014 - Nov 2015 (Ivry-sur-Seine)</span>
 	    		</div>
 	    	</div>
 	    	<div class="timeline-block">
-	    		<div class="timeline-img">
-	    			<img src="" alt="#">
-	    		</div>
+	    		<div class="timeline-img timeline-arkena"><a href="#"></a></div>
 	    		<div class="timeline-content">
-	    			<h2>Title of section 1</h2>
+	    			<h2>Arkena - Front-end Developer</h2>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
-	    			<a class="read-more" href="#">Read more</a>
-	    			<span class="date">Jan 14</span>
+	    			<a class="read-more" href="#">Check Website</a>
+	    			<span class="date">Sept 2013 - Sept 2014 (Ivry-sur-Seine)</span>
 	    		</div>
 	    	</div>
 	    	<div class="timeline-block">
-	    		<div class="timeline-img">
-	    			<img src="" alt="#">
-	    		</div>
+	    		<div class="timeline-img timeline-byagency"><a href="#"></a></div>
 	    		<div class="timeline-content">
-	    			<h2>Title of section 1</h2>
+	    			<h2>By Angency Interactive - Web Developer</h2>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
-	    			<a class="read-more" href="#">Read more</a>
-	    			<span class="date">Jan 14</span>
+	    			<a class="read-more" href="#">Check Website</a>
+	    			<span class="date">Mar 2013 - Aug 2013 (Paris)</span>
 	    		</div>
 	    	</div>
 	    	<div class="timeline-block">
-	    		<div class="timeline-img">
-	    			<img src="" alt="#">
-	    		</div>
+	    		<div class="timeline-img timeline-cput"><a href="#"></a></div>
 	    		<div class="timeline-content">
-	    			<h2>Title of section 1</h2>
+	    			<h2>Cape Peninsula University of Technology - Web Developer</h2>
 	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
-	    			<a class="read-more" href="#">Read more</a>
-	    			<span class="date">Jan 14</span>
+	    			<a class="read-more" href="#">Check Website</a>
+	    			<span class="date">Apr 2012 - Jun 2012 (Cape Town)</span>
+	    		</div>
+	    	</div>
+	    </section>
+	</div>
+
+	<!-- TIMELINE -->
+	<div class="container-wrap">
+	    <section class="timeline container">
+	    	<div class="timeline-block">
+	    		<div class="timeline-img timeline-em"><a href="#"></a></div>
+	    		<div class="timeline-content">
+	    			<h2>L'Ecole Multimedia - Mobile Applications Development</h2>
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
+	    			<a class="read-more" href="#">Check Cursus</a>
+	    			<span class="date">Dec 2014 - Dec 2015 (Paris)</span>
+	    		</div>
+	    	</div>
+	    	<div class="timeline-block">
+	    		<div class="timeline-img timeline-em"><a href="#"></a></div>
+	    		<div class="timeline-content">
+	    			<h2>L'Ecole Multimedia - Web Development</h2>
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
+	    			<a class="read-more" href="#">Check Cursus</a>
+	    			<span class="date">Sept 2013 - Sept 2014 (Paris)</span>
+	    		</div>
+	    	</div>
+	    	<div class="timeline-block">
+	    		<div class="timeline-img timeline-iut"><a href="#"></a></div>
+	    		<div class="timeline-content">
+	    			<h2>IUT de Marne-la-Vallée - Licence Pro <abbr title="Activité et Techniques de Communication">ATC</abbr></h2>
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
+	    			<a class="read-more" href="#">Check Cursus</a>
+	    			<span class="date">Sept 2012 - Jul 2013 (Marne-la-Vallée)</span>
+	    		</div>
+	    	</div>
+	    	<div class="timeline-block">
+	    		<div class="timeline-img timeline-iut"><a href="#"></a></div>
+	    		<div class="timeline-content">
+	    			<h2>IUT de Marne-la-Vallée - <abbr title="Diplôme Universitaire de Technologie - Services et Réseaux de Communication">DUT SRC</abbr></h2>
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa omnis dolore. Fugit molestias accusantium qui unde, nam ducimus dicta, maiores culpa placeat sint vero amet quis, officia id repudiandae.</p>
+	    			<a class="read-more" href="#">Check Cursus</a>
+	    			<span class="date">Sept 2010 - Jul 2012 (Marne-la-Vallée)</span>
 	    		</div>
 	    	</div>
 	    </section>

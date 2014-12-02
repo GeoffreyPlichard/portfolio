@@ -35,7 +35,7 @@
 	</header>
 
 	<section>
-		about
+		I'm currently in Mobile Applications Developer training at l'Ecole Multimedia in Paris. Parallel to my studies, I'm a front-end developer at Arkena, a leader company in content management and video services for the Media Industry where I start my second year using HTML5, CSS3, jQuery and AngularJS.
 	</section>
    
     <!-- TIMELINE -->

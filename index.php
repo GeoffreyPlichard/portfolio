@@ -33,6 +33,10 @@
 	    	</ul>
 	    </nav>
 	</header>
+
+	<section>
+		about
+	</section>
    
     <!-- TIMELINE -->
 	<div class="container-wrap">

@@ -140,7 +140,7 @@
   .read-more{
   	float: right;
   	padding: .8em 1em;
-  	background: #acb7c0;
+  	background: #1479C9;
   	color: white;
   	border-radius: 0.25em;
   	&:hover{
@@ -151,6 +151,11 @@
   	float: left;
   	padding: .8em 0;
   	opacity: .7;
+  }
+  .skills{
+    p{
+      font-style: italic;
+    }
   }
 
   &:before{

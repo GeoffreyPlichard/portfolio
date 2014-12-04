@@ -1,3 +1,10 @@
+/*
+* Variables
+*/
+
+$main-color: #009688;
+$content-color: #5c6b7e;
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,7 +18,7 @@ html * {
 
 body{
 	font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
-	color:#5c6b7e;
+	color:$content-color;
   line-height: 20px;
 	background-color: #e9f0f5;
 }
@@ -30,11 +37,6 @@ abbr{
   cursor:help;
 }
 
-.container-wrap{
-	width:100%;
-	background-color: #e9f0f5;
-}
-
 .container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -46,4 +48,28 @@ abbr{
   content: '';
   display: table;
   clear: both;
+}
+
+.section-title{
+  font-size: 30px;
+  color:$main-color;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+.divider{
+  width:100px;
+  background-color:$main-color;
+  height:1px;
+  margin: 0 auto;
+}
+
+.tooltip{
+  display: inline-block;
+  border-bottom: 1px dashed;
+  color: $content-color;
+}
+
+section{
+  padding:40px 0;
 }

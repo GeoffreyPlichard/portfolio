@@ -6,6 +6,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     
+    pkg: grunt.file.readJSON('package.json'),
     
     sass: {
       dist: {
@@ -15,6 +16,18 @@ module.exports = function(grunt) {
         },
         files: {
           'css/main.css': 'css/sass/main.scss'
+        }
+      }
+    },
+
+    cssmin: {
+      add_banner: {
+        options: {
+          banner: '/*! <%= pkg.name %>  - plugins - v<%= pkg.version %> - ' +
+        '<%= grunt.template.today("yyyy-mm-dd") %> */'
+        },
+        files: {
+          'css/plugins.css': ['css/plugins/*.css']
         }
       }
     },
@@ -39,6 +52,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
 
   // ===========================================================================
@@ -46,6 +60,6 @@ module.exports = function(grunt) {
   // ===========================================================================
 
   // this default task will go through dev configuration
-  grunt.registerTask('default', ['sass:dist','watch']);
+  grunt.registerTask('default', ['sass:dist','cssmin', 'watch']);
 
 }

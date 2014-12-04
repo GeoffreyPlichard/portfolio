@@ -52,6 +52,9 @@ table {
   border-spacing: 0;
 }
 
+/*
+* Variables
+*/
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -84,11 +87,6 @@ abbr {
   cursor: help;
 }
 
-.container-wrap {
-  width: 100%;
-  background-color: #e9f0f5;
-}
-
 .container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -103,9 +101,33 @@ abbr {
   clear: both;
 }
 
+.section-title {
+  font-size: 30px;
+  color: #009688;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+.divider {
+  width: 100px;
+  background-color: #009688;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.tooltip {
+  display: inline-block;
+  border-bottom: 1px dashed;
+  color: #5c6b7e;
+}
+
+section {
+  padding: 40px 0;
+}
+
 .main-header {
   width: 100%;
-  background-color: #3C827E;
+  background-color: #009688;
 }
 
 .navbar {
@@ -416,6 +438,9 @@ abbr {
   float: left;
   padding: .8em 0;
   opacity: .7;
+}
+.timeline-content .skills p {
+  font-style: italic;
 }
 .timeline-content:before {
   content: '';
